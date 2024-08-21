@@ -1,0 +1,90 @@
+body {  
+  /* background: linear-gradient(to bottom, #00ffff 0%, #000099 100%); */
+  background: lightblue;
+}  
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(28, 12, 94);
+  padding: 10px;
+  color: white;
+}
+
+.brand{
+  font-weight: bolder; 
+  width: 20%;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.search-bar{
+  width: 100%;
+  padding: 5px;  
+  border-radius: 1px;  
+  padding-left: 200px;
+}
+
+.search-bar input{
+  width: 55%;
+}
+
+.nav-bar .sign{
+  padding: 1% ;
+  border-radius: 2px;
+  /* display: inline-block; */
+}
+
+input::placeholder{
+  padding: 10px;
+  font-weight: bold;
+}
+
+.cart{
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(23, 116, 142);
+  color: white;
+  font-weight: bold;
+
+}
+
+.card:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img{
+  width: 350px;
+  height: 350px;
+}
+
+.con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:4rem;
+}
+
+.nav-bar-wrapper .items {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
